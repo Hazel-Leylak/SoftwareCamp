@@ -9,6 +9,8 @@ namespace Example_3_1
             MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
             myDictionary.Add(1, "Sydney, Melbourne");
             myDictionary.Add(3, "Kanberra");
+            myDictionary.Add(5);
+            myDictionary.Add(8, "Barcelona, Madrid");
             myDictionary.PrintValues();
             Console.ReadKey();
         }
