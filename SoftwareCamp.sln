@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_3_1", "Example_3_1\Example_3_1.csproj", "{3A505112-08A9-4928-8561-9C6948C91EAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_3_1", "Example_3_1\Example_3_1.csproj", "{3A505112-08A9-4928-8561-9C6948C91EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSalesService", "GameSalesService\GameSalesService.csproj", "{8DB8CE52-3C7F-4BEC-9F55-F7C278A68544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3A505112-08A9-4928-8561-9C6948C91EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A505112-08A9-4928-8561-9C6948C91EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A505112-08A9-4928-8561-9C6948C91EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB8CE52-3C7F-4BEC-9F55-F7C278A68544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB8CE52-3C7F-4BEC-9F55-F7C278A68544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB8CE52-3C7F-4BEC-9F55-F7C278A68544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB8CE52-3C7F-4BEC-9F55-F7C278A68544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
