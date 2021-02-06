@@ -24,9 +24,9 @@ namespace GameSalesService
             Customer customer = new Customer()
             {
                 FirstName = "Hazel",
-                LastName = "Leylak",
+                LastName = "L",
                 Id = 1,
-                NationalityId = "39064638256",
+                NationalityId = "11111111",
                 DateOfBirth= new DateTime(1999,2,23)
             };
             BaseSalesManager salesManager = new SummerSalesManager(new CheckServiceAdapter());
