@@ -23,8 +23,8 @@ namespace GameSalesService
             };
             Customer customer = new Customer()
             {
-                FirstName = "Hazel",
-                LastName = "L",
+                FirstName = "Name",
+                LastName = "Surname",
                 Id = 1,
                 NationalityId = "11111111",
                 DateOfBirth= new DateTime(1999,2,23)
